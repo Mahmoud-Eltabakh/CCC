@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form to pdf</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>    
+    <div>  
+        <h1>Anmeldung</h1>
+        <div>
+            <form id="gform" action="https://docs.google.com/forms/u/0/d/15BQ_y_Ej6Esb_tbB7rvMo82A5i17FeDYgUD7Aq-nTYE/formResponse" autocomplete="on">
+                <label for="fname">Vorname:</label><br>
+                <input type="text" id="fname" name="entry.2092238618" autocomplete="given-name" required><br>
+                <br>
+                <label for="lname">Nachname:</label><br>
+                <input type="text" id="lname" name="entry.1811941082" autocomplete= "family-name" required><br>
+                <br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="entry.2125040530" autocomplete="email" required><br>
+                <br>
+                <input type="submit" name="" value=Anmelden>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="functions.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</body>
+
+</html>
